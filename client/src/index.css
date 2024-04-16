@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Annapurna+SIL:wght@400;700&family=Calistoga&family=Concert+One&family=Kode+Mono:wght@500&family=Montserrat:ital@0;1&family=Nanum+Myeongjo:wght@700;800&family=PT+Serif:wght@700&display=swap');
+body {
+    background-color: #fff;
+  }
+  
+  @layer base {
+    /* Menghilangkan lebar scrollbar */
+    ::-webkit-scrollbar {
+      width: 0;
+    }
+  }
