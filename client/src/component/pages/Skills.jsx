@@ -115,13 +115,13 @@ useEffect (() => {
                             </div>
                         </div> 
                      )}
-                     <div className=' group hidden md:block flex justify-between items-end dm:space-x-2 dm:pt-[5rem] pr-4 '>
+                     <div className=' group hidden md:flex justify-between items-end dm:space-x-2 dm:pt-[5rem] pr-4 '>
                         <button onClick={() => { bartoggle(1); }} className='flex justify-center items-center rounded-md border-2 dm:w-[6rem] focus:animate-jump h-[2.5rem]' ><GrFormPrevious className=' text-biru m-auto w-[2.5rem] h-[2.5rem] dm:w-[3rem] dm:h-[2rem]'/><h1 className='mr-[1rem] dark:text-white'>Prev</h1></button>
                         <button onClick={() => { bartoggle(2); }} className='flex justify-center items-center rounded-md border-2 dm:w-[6rem] focus:animate-jump h-[2.5rem]'><h1 className='ml-[1rem] dark:text-white'>Next</h1> <MdNavigateNext className=' text-biru m-auto w-[3rem] h-[2.5rem] dm:w-[3rem] dm:h-[2rem]'/></button>
                     </div>
                 </div>
 
-                <div className=' group  flex justify-between items-end dm:space-x-2 dm:pt-[5rem] pr-4 '>
+                <div className=' group md:hidden flex justify-between items-end dm:space-x-2 dm:pt-[5rem] pr-8 '>
                         <button onClick={() => { bartoggle(1); }} className='flex justify-center items-center rounded-md border-2 dm:w-[6rem] focus:animate-jump h-[2.5rem]' ><GrFormPrevious className=' text-biru m-auto w-[2.5rem] h-[2.5rem] dm:w-[3rem] dm:h-[2rem]'/><h1 className='mr-[1rem] dark:text-white'>Prev</h1></button>
                         <button onClick={() => { bartoggle(2); }} className='flex justify-center items-center rounded-md border-2 dm:w-[6rem] focus:animate-jump h-[2.5rem]'><h1 className='ml-[1rem] dark:text-white'>Next</h1> <MdNavigateNext className=' text-biru m-auto w-[3rem] h-[2.5rem] dm:w-[3rem] dm:h-[2rem]'/></button>
                  </div>
