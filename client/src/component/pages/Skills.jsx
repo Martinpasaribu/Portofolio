@@ -75,7 +75,7 @@ useEffect (() => {
 
   return (
     <div className='overflow-hidden'>
-        <div className='w-[23.7rem] dm:w-[65rem] dm:h-[60rem] h-[45rem] mx-auto '>
+        <div className='w-[23.7rem] dm:w-[65rem] dm:h-[60rem] h-full mx-auto '>
             <div className='relative flex flex-col  w-[23.7rem] dm:w-[65rem] h-[10rem] dm:h-[12rem]  text-white'>
                 <div className='w-full h-[10px] bg-slate-400'></div>
                 <img src={penyangga2} alt="" className='size-[8rem] w-[15rem] mx-auto ' />
@@ -115,11 +115,17 @@ useEffect (() => {
                             </div>
                         </div> 
                      )}
-                     <div className=' group  flex justify-between items-end dm:space-x-2 dm:pt-[5rem] pr-4 '>
+                     <div className=' group hidden md:block flex justify-between items-end dm:space-x-2 dm:pt-[5rem] pr-4 '>
                         <button onClick={() => { bartoggle(1); }} className='flex justify-center items-center rounded-md border-2 dm:w-[6rem] focus:animate-jump h-[2.5rem]' ><GrFormPrevious className=' text-biru m-auto w-[2.5rem] h-[2.5rem] dm:w-[3rem] dm:h-[2rem]'/><h1 className='mr-[1rem] dark:text-white'>Prev</h1></button>
                         <button onClick={() => { bartoggle(2); }} className='flex justify-center items-center rounded-md border-2 dm:w-[6rem] focus:animate-jump h-[2.5rem]'><h1 className='ml-[1rem] dark:text-white'>Next</h1> <MdNavigateNext className=' text-biru m-auto w-[3rem] h-[2.5rem] dm:w-[3rem] dm:h-[2rem]'/></button>
                     </div>
                 </div>
+
+                <div className=' group  flex justify-between items-end dm:space-x-2 dm:pt-[5rem] pr-4 '>
+                        <button onClick={() => { bartoggle(1); }} className='flex justify-center items-center rounded-md border-2 dm:w-[6rem] focus:animate-jump h-[2.5rem]' ><GrFormPrevious className=' text-biru m-auto w-[2.5rem] h-[2.5rem] dm:w-[3rem] dm:h-[2rem]'/><h1 className='mr-[1rem] dark:text-white'>Prev</h1></button>
+                        <button onClick={() => { bartoggle(2); }} className='flex justify-center items-center rounded-md border-2 dm:w-[6rem] focus:animate-jump h-[2.5rem]'><h1 className='ml-[1rem] dark:text-white'>Next</h1> <MdNavigateNext className=' text-biru m-auto w-[3rem] h-[2.5rem] dm:w-[3rem] dm:h-[2rem]'/></button>
+                 </div>
+
                 <div className='dm:w-[50rem] w-[18rem] pt-10'>
                     <img src={lucu} alt="" className='size-[10rem] dm:size-[20rem]' />
 
