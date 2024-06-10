@@ -83,7 +83,7 @@ useEffect (() => {
                     <h1 className={` ${activeSection === 'div1' ? 'animate-swing   font-ConcertOne text-[1.7rem] dm:text-[2.8rem] px-5  bg-biru rounded-lg':'opacity-0'}`}>MY Skills</h1>
                 </section>
             </div>
-            <div className='flex w-[23.7rem] dm:w-[65rem] h-[34rem] dm:h-[45rem] '>
+            <div className='flex w-[23.7rem] dm:w-[65rem] h-[45rem] dm:h-[45rem] '>
                 <div className='w-screen '>
                      { cekbar && (
                         <div className='flex flex-col font-ConcertOne'>
@@ -102,8 +102,8 @@ useEffect (() => {
                      )}
                      { cekbar2 && (
                         <div className='flex flex-col font-ConcertOne'>
-                            <div className='ml-5 w-[9.1rem] dm:w-[10.1rem] dm:text-lg text-biru my-4 rounded-lg shadow-bayang px-2 dark:bg-slate-400 dark:text-white'>
-                                <h1 className=''>Lainya</h1>
+                            <div className='flex ml-5 w-[10rem] dm:w-[10.1rem] dm:text-lg text-biru rounded-lg shadow-bayang px-2 dark:bg-slate-400 dark:text-white'>
+                                <h1 className='mx-auto'>Lainya</h1>
                             </div>
                             <div className='flex flex-col dm:grid dm:grid-cols-2 dm:gap-y-[4rem] gap-y-[1rem] dm:pt-20 gap-x-2 dark:text-white '>
                                 <div className='animate-geser1 flex justify-center  items-center space-x-10 dm:text-xl h-[5rem]  hover:border  hover:scale-105 duration-300 hover:shadow-bayang'> <h1>UI/UX</h1> <img src={ui} alt="" className='w-[4rem] h-[3rem] dm:w-[9.5rem] dm:h-[7rem]'/> </div>
