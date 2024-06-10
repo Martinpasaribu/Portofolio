@@ -83,12 +83,12 @@ useEffect (() => {
                     <h1 className={` ${activeSection === 'div1' ? 'animate-swing   font-ConcertOne text-[1.7rem] dm:text-[2.8rem] px-5  bg-biru rounded-lg':'opacity-0'}`}>MY Skills</h1>
                 </section>
             </div>
-            <div className='flex w-[23.7rem] dm:w-[65rem] h-[24rem] dm:h-[45rem] '>
+            <div className='flex w-[23.7rem] dm:w-[65rem] h-[34rem] dm:h-[45rem] '>
                 <div className='w-screen '>
                      { cekbar && (
                         <div className='flex flex-col font-ConcertOne'>
                             <div className='flex ml-5 w-[10rem] dm:w-[10.1rem]  dm:text-lg text-biru  rounded-lg shadow-bayang  dark:bg-slate-400 dark:text-white'>
-                                <h1 className='mx-auto my-2 '>Website Developer </h1>
+                                <h1 className='mx-auto  '>Website Developer </h1>
                             </div>
                             <div className='flex flex-col dm:grid dm:grid-cols-2 dm:gap-y-[4rem] gap-y-[1rem] dm:pt-20 gap-x-2 dark:text-white'>
                                 <div className='animate-geser1 flex justify-center  h-[5rem] items-center space-x-10 dm:text-xl hover:border  hover:scale-105 duration-300 hover:shadow-bayang'> <h1>JavaScript</h1> <IoLogoJavascript className=' w-[3rem] h-[3rem] dm:w-[5rem] dm:h-[5rem] text-yellow-400'/> </div>
