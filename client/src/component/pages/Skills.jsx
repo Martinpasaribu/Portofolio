@@ -88,7 +88,7 @@ useEffect (() => {
                      { cekbar && (
                         <div className='flex flex-col font-ConcertOne'>
                             <div className='ml-5 w-[9.1rem] dm:w-[10.1rem] dm:text-lg text-biru my-4 rounded-lg shadow-bayang px-2 dark:bg-slate-400 dark:text-white'>
-                                <h1 className=''>Website Developer</h1>
+                                <h1 className=''>Website Developer *</h1>
                             </div>
                             <div className='flex flex-col dm:grid dm:grid-cols-2 dm:gap-y-[4rem] gap-y-[1rem] dm:pt-20 gap-x-2 dark:text-white'>
                                 <div className='animate-geser1 flex justify-center  h-[5rem] items-center space-x-10 dm:text-xl hover:border  hover:scale-105 duration-300 hover:shadow-bayang'> <h1>JavaScript</h1> <IoLogoJavascript className=' w-[3rem] h-[3rem] dm:w-[5rem] dm:h-[5rem] text-yellow-400'/> </div>
