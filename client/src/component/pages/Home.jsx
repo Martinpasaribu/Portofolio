@@ -251,17 +251,19 @@ export const Home = () => {
       <div id='intro' className='flex space-x-8 justify-end dm:justify-start w-full dm:space-x-10  dm:px-[5.5rem] py-4  text-[12px] dm:text-lg bg-gray-200 bg-opacity-30  dark:text-white'>
         <ul className='list-disc'>
           
-          <li>Introduction Javascript </li>
-          <li>Introduction React JS </li>
-          <li>Node, JS </li>
-          <li>Introduction PHP </li>
-      
+          <li>Javascript </li>
+          <li>React JS </li>
+          <li>Node JS </li>
+          <li>Vue Js </li>
+          <li>PHP </li>
+          
 
         </ul>
         <ul className='list-disc '>
-          <li>Introduction Cyber Security </li>
-          <li> Data Analyts</li>
+          <li>Cyber Security </li>
+          <li>Data Analyts</li>
           <li>Introduction SQL</li>
+          <li></li>
 
         </ul>
         <p> 
