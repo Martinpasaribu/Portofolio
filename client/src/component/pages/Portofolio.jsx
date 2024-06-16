@@ -240,7 +240,7 @@ export const Portofolio = () => {
                     <h1 className=' dm:hidden fixed right-2 text-sm animate-pulse text-gray-300'>swipe</h1>
                 </div>
             </div>
-            <div className='w-[23.7rem] dm:w-[65rem] dm:h-[55rem]  '>
+            <div className='w-[23.7rem] dm:w-[65rem] dm:h-[55rem] overflow-auto '>
             
 
                 <div className={`h-full grid grid-cols-2  dm:grid-cols-3 gap-4 py-4 px-2  `}>
