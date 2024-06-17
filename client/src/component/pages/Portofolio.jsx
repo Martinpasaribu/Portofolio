@@ -256,7 +256,7 @@ export const Portofolio = () => {
                                 </div>
                             </div>
                             <div className='flex flex-col justify-center items-center h-[2rem] sm:h-[4rem] dm:w-[6.5rem] dm:gap-1'>
-                                <p className='text-[9px] dm:text-[12px] text-ungu px-1'>Tecnology</p>
+                                <p className='text-[9px] dm:text-[12px] text-ungu px-1'>Technology</p>
                                 <div className='text-[12px] dm:text-[12px]'> 
                                     <div className='flex justify-center items-center dm:w-[6rem] gap-1'>
                                         <p>Javascript</p> <IoLogoJavascript className='size-3 dm:size-4 text-yellow-500 bg-black'/>
