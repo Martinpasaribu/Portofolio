@@ -248,14 +248,14 @@ export const Home = () => {
       </div>
     )}
     {showSerti && (
-      <div id='intro' className='flex space-x-8 justify-end dm:justify-start w-full dm:space-x-10  dm:px-[5.5rem] py-4  text-[12px] dm:text-lg bg-gray-200 bg-opacity-30  dark:text-white'>
+      <div id='intro' className='flex pl-10 space-x-8 justify-start dm:justify-start w-full dm:space-x-10  dm:px-[5.5rem] py-4  text-[12px] dm:text-lg bg-gray-200 bg-opacity-30  dark:text-white'>
         <ul className='list-disc'>
           
           <li>Javascript </li>
           <li>React JS </li>
           <li>Node JS </li>
           <li>Vue Js </li>
-          <li>PHP </li>
+          
           
 
         </ul>
@@ -263,7 +263,7 @@ export const Home = () => {
           <li>Cyber Security </li>
           <li>Data Analyts</li>
           <li>Introduction SQL</li>
-          <li></li>
+          <li>PHP </li>
 
         </ul>
         <p> 
