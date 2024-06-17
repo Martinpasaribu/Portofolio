@@ -175,7 +175,7 @@ export const Portofolio = () => {
   return (
     <div className='overflow-hidden'>
         <div className='w-[23.7rem] dm:w-[65rem] h-screen mx-auto'>
-            <div className='w-[23.7rem] dm:w-[65rem] h-1/4 pt-10'>
+            <div className='w-[23.7rem] dm:w-[65rem] h-1/5 pt-6'>
                 <div className='w-full h-[3rem] dm:h-[5rem]'>
                     <div className='w-full h-[5px] bg-gradient-to-tr from-blue-500 via-purple-500 to-pink' ></div>
                     <div className='flex justify-between'>
@@ -240,12 +240,11 @@ export const Portofolio = () => {
                     <h1 className=' dm:hidden fixed right-2 text-sm animate-pulse text-gray-300'>swipe</h1>
                 </div>
             </div>
-            <div className='w-[23.7rem] dm:w-[65rem] dm:h-[55rem]  '>
-            
+            <div className='overflow-auto h-[38rem] w-full'>            
 
-                <div className={`h-full grid grid-cols-2  dm:grid-cols-3 gap-4 py-4 px-2  `}>
+                <div className={`grid grid-cols-2 dm:grid-cols-3 gap-4 py-4 px-2`}>
                 { hasil && hasil.map((item) => (
-                <div className={`w-[11rem] h-[16rem] dm:w-[20rem] dm:h-[26rem] py-3 bg-gray-100 bg-opacity-50 rounded-xl  ${resetElement ? 'animate-fadeIn ' : ' opacity-0'}  `}>
+                <div className={`w-[11rem] dm:w-[20rem] py-3 bg-gray-100 bg-opacity-50 rounded-xl  ${resetElement ? 'animate-fadeIn ' : ' opacity-0'}  `}>
                     <img src={item.gambar} alt="" className='mx-auto h-[10rem] dm:h-[16.5rem] rounded-t-lg'/>
                     <div className='h-1/3 flex flex-col justify-center items-enter  text-black'>
                         <div className='h-[6rem] dm:h-[5rem]  w-full flex dm:justify-center justify-center pt-2 gap-x-2'>
