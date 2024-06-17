@@ -75,7 +75,7 @@ useEffect (() => {
 
   return (
     <div className='overflow-hidden'>
-        <div className='w-[23.7rem] dm:w-[65rem] dm:h-[60rem] h-[45rem] mx-auto '>
+        <div className='w-[23.7rem] dm:w-[65rem] dm:h-[60rem] h-full mx-auto '>
             <div className='relative flex flex-col  w-[23.7rem] dm:w-[65rem] h-[10rem] dm:h-[12rem]  text-white'>
                 <div className='w-full h-[10px] bg-slate-400'></div>
                 <img src={penyangga2} alt="" className='size-[8rem] w-[15rem] mx-auto ' />
@@ -83,12 +83,12 @@ useEffect (() => {
                     <h1 className={` ${activeSection === 'div1' ? 'animate-swing   font-ConcertOne text-[1.7rem] dm:text-[2.8rem] px-5  bg-biru rounded-lg':'opacity-0'}`}>MY Skills</h1>
                 </section>
             </div>
-            <div className='flex w-[23.7rem] dm:w-[65rem] h-[24rem] dm:h-[45rem] '>
+            <div className='flex w-[23.7rem] dm:w-[65rem] h-[45rem] dm:h-[45rem] '>
                 <div className='w-screen '>
                      { cekbar && (
                         <div className='flex flex-col font-ConcertOne'>
-                            <div className='ml-5 w-[9.1rem] dm:w-[10.1rem] dm:text-lg text-biru my-4 rounded-lg shadow-bayang px-2 dark:bg-slate-400 dark:text-white'>
-                                <h1 className=''>Website Developer</h1>
+                            <div className='flex ml-5 w-[10rem] dm:w-[10.1rem]  dm:text-lg text-biru  rounded-lg shadow-bayang  dark:bg-slate-400 dark:text-white'>
+                                <h1 className='mx-auto  '>Website Developer </h1>
                             </div>
                             <div className='flex flex-col dm:grid dm:grid-cols-2 dm:gap-y-[4rem] gap-y-[1rem] dm:pt-20 gap-x-2 dark:text-white'>
                                 <div className='animate-geser1 flex justify-center  h-[5rem] items-center space-x-10 dm:text-xl hover:border  hover:scale-105 duration-300 hover:shadow-bayang'> <h1>JavaScript</h1> <IoLogoJavascript className=' w-[3rem] h-[3rem] dm:w-[5rem] dm:h-[5rem] text-yellow-400'/> </div>
@@ -102,8 +102,8 @@ useEffect (() => {
                      )}
                      { cekbar2 && (
                         <div className='flex flex-col font-ConcertOne'>
-                            <div className='ml-5 w-[9.1rem] dm:w-[10.1rem] dm:text-lg text-biru my-4 rounded-lg shadow-bayang px-2 dark:bg-slate-400 dark:text-white'>
-                                <h1 className=''>Lainya</h1>
+                            <div className='flex ml-5 w-[10rem] dm:w-[10.1rem] dm:text-lg text-biru rounded-lg shadow-bayang px-2 dark:bg-slate-400 dark:text-white'>
+                                <h1 className='mx-auto'>Lainya</h1>
                             </div>
                             <div className='flex flex-col dm:grid dm:grid-cols-2 dm:gap-y-[4rem] gap-y-[1rem] dm:pt-20 gap-x-2 dark:text-white '>
                                 <div className='animate-geser1 flex justify-center  items-center space-x-10 dm:text-xl h-[5rem]  hover:border  hover:scale-105 duration-300 hover:shadow-bayang'> <h1>UI/UX</h1> <img src={ui} alt="" className='w-[4rem] h-[3rem] dm:w-[9.5rem] dm:h-[7rem]'/> </div>
@@ -115,11 +115,17 @@ useEffect (() => {
                             </div>
                         </div> 
                      )}
-                     <div className=' group  flex justify-between items-end dm:space-x-2 dm:pt-[5rem] pr-4 '>
+                     <div className=' group hidden md:flex justify-between items-end dm:space-x-2 dm:pt-[5rem] pr-4 '>
                         <button onClick={() => { bartoggle(1); }} className='flex justify-center items-center rounded-md border-2 dm:w-[6rem] focus:animate-jump h-[2.5rem]' ><GrFormPrevious className=' text-biru m-auto w-[2.5rem] h-[2.5rem] dm:w-[3rem] dm:h-[2rem]'/><h1 className='mr-[1rem] dark:text-white'>Prev</h1></button>
                         <button onClick={() => { bartoggle(2); }} className='flex justify-center items-center rounded-md border-2 dm:w-[6rem] focus:animate-jump h-[2.5rem]'><h1 className='ml-[1rem] dark:text-white'>Next</h1> <MdNavigateNext className=' text-biru m-auto w-[3rem] h-[2.5rem] dm:w-[3rem] dm:h-[2rem]'/></button>
                     </div>
                 </div>
+
+                <div className=' group md:hidden flex justify-between items-end dm:space-x-2 dm:pt-[5rem] pr-8 '>
+                        <button onClick={() => { bartoggle(1); }} className='flex justify-center items-center rounded-md border-2 dm:w-[6rem] focus:animate-jump h-[2.5rem]' ><GrFormPrevious className=' text-biru m-auto w-[2.5rem] h-[2.5rem] dm:w-[3rem] dm:h-[2rem]'/><h1 className='mr-[1rem] dark:text-white'>Prev</h1></button>
+                        <button onClick={() => { bartoggle(2); }} className='flex justify-center items-center rounded-md border-2 dm:w-[6rem] focus:animate-jump h-[2.5rem]'><h1 className='ml-[1rem] dark:text-white'>Next</h1> <MdNavigateNext className=' text-biru m-auto w-[3rem] h-[2.5rem] dm:w-[3rem] dm:h-[2rem]'/></button>
+                 </div>
+
                 <div className='dm:w-[50rem] w-[18rem] pt-10'>
                     <img src={lucu} alt="" className='size-[10rem] dm:size-[20rem]' />
 

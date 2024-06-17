@@ -159,7 +159,7 @@ export const Home = () => {
           </div>
         <div className='space-y-3 dm:space-y-10 mt-4 dm:m-0 dm:w-[28rem] '>
           <div className='flex flex-col text-center dm:text-left w-full h-1/2 text- dm:text-[2rem] dm:gap-2 dark:text-ungu '>
-            <h1 className='animate-atas'> Hello <span className='animate-fadeIn'>,</span> </h1>
+            <h1 className='animate-atas'> Hello <span className='animate-fadeIn'></span> </h1>
             
 
             <div className="w-full  font-bold " >
@@ -235,7 +235,7 @@ export const Home = () => {
 
     {showIntro && (
       <div id='intro' className=' px-[1rem] w-full h-full dm:px-[4.5rem] py-4  text-justify text-[12px] dm:text-lg bg-gray-200 bg-opacity-30'>
-        <p  className='dark:text-white'> Saya berusia 23 tahun dan saya memiliki spesialisasi dalam bidang Website developer, Manajemen database, Sistem tertanam dan Sistem informasi. Telah mendesain dan mengembangkan sistem untuk meningkatkan efisiensi kerja. Selama menjalani pendidikan aktif dalam kegiatan organisasi untuk memperkaya keterampilan jiwa kepemimpinan, manajemen waktu, dan komunikasi yang baik. </p>
+        <p  className='dark:text-white'> Saya berusia 23 tahun dan saya memiliki spesialisasi dalam bidang Website developer, Database management, embedded systems, information systems and computer networks. Telah mendesain dan mengembangkan sistem untuk meningkatkan efisiensi kerja. Saya pernah aktif dalam kegiatan organisasi untuk memperkaya keterampilan kepemimpinan, manajemen waktu, dan komunikasi yang baik. </p>
       </div>
     )}
     {showEducation && (
@@ -251,17 +251,19 @@ export const Home = () => {
       <div id='intro' className='flex space-x-8 justify-end dm:justify-start w-full dm:space-x-10  dm:px-[5.5rem] py-4  text-[12px] dm:text-lg bg-gray-200 bg-opacity-30  dark:text-white'>
         <ul className='list-disc'>
           
-          <li>Introduction Javascript </li>
-          <li>Introduction React JS </li>
-          <li>Node, JS </li>
-          <li>Introduction PHP </li>
-      
+          <li>Javascript </li>
+          <li>React JS </li>
+          <li>Node JS </li>
+          <li>Vue Js </li>
+          <li>PHP </li>
+          
 
         </ul>
         <ul className='list-disc '>
-          <li>Introduction Cyber Security </li>
-          <li> Data Analyts</li>
+          <li>Cyber Security </li>
+          <li>Data Analyts</li>
           <li>Introduction SQL</li>
+          <li></li>
 
         </ul>
         <p> 
