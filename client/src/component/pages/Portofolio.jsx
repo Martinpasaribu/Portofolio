@@ -174,7 +174,7 @@ export const Portofolio = () => {
 
   return (
     <div className='overflow-hidden'>
-        <div className='w-[23.7rem] dm:w-[65rem] h-screen mx-auto'>
+        <div className='w-[23.7rem] dm:w-[65rem] h-screen mx-auto h-wkw'>
             <div className='w-[23.7rem] dm:w-[65rem] h-1/5 pt-6'>
                 <div className='w-full h-[3rem] dm:h-[5rem]'>
                     <div className='w-full h-[5px] bg-gradient-to-tr from-blue-500 via-purple-500 to-pink' ></div>
