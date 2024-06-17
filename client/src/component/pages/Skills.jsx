@@ -79,7 +79,7 @@ useEffect (() => {
             <div className='relative flex flex-col  w-[23.7rem] dm:w-[65rem] h-[10rem] dm:h-[12rem]  text-white'>
                 <div className='w-full h-[10px] bg-slate-400'></div>
                 
-                {/* cek sini */}                 <img src={penyangga2} alt="" className='size-[8rem] w-[15rem] mx-auto ' />
+                {/* cek sini  mana*/}                 <img src={penyangga2} alt="" className='size-[8rem] w-[15rem] mx-auto ' />
                 <section id='div1' className={` ${activeSection === 'div1' ? 'absolute animate-atas my-auto mx-auto  dm:px-8  ml-[5rem]  dm:ml-[19rem] top-[3.49rem] dm:top-[2rem]':'opacity-0'}`}>
                     <h1 className={` ${activeSection === 'div1' ? 'animate-swing   font-ConcertOne text-[1.7rem] dm:text-[2.8rem] px-5  bg-biru rounded-lg':'opacity-0'}`}>MY Skills</h1>
                 </section>
